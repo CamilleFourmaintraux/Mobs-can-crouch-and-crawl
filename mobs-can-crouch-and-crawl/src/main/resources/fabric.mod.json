@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "mobscrouchandcrawl",
+	"version": "${version}",
+	"name": "Mobs Can Crouch And Crawl",
+	"description": "Zombies chasing a target crouch under 1.5-block gaps and crawl through 1-block gaps to reach it. Required on the server, recommended on the client for the crawling animation.",
+	"authors": [
+		"grotacam"
+	],
+	"icon": "assets/mobscrouchandcrawl/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.grotacam.mobscrouchandcrawl.MobsCrouchAndCrawl"
+		],
+		"modmenu": [
+			"net.grotacam.mobscrouchandcrawl.client.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"mobscrouchandcrawl.mixins.json",
+		{
+			"config": "mobscrouchandcrawl.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "1.21.11",
+		"java": ">=21"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}

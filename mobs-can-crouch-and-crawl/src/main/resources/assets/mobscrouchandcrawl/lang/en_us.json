@@ -1,0 +1,13 @@
+{
+	"config.mobscrouchandcrawl.title": "Mobs Can Crouch And Crawl",
+	"config.mobscrouchandcrawl.category.general": "General",
+	"config.mobscrouchandcrawl.server_note": "These settings are used by the server. In singleplayer they apply to your world; on a dedicated server, edit config/mobscrouchandcrawl.json on the server instead.",
+	"config.mobscrouchandcrawl.enable_crouching": "Mobs can crouch",
+	"config.mobscrouchandcrawl.enable_crouching.tooltip": "A mob chasing a target crouches to get through gaps 1.5 blocks high.",
+	"config.mobscrouchandcrawl.enable_crawling": "Mobs can crawl",
+	"config.mobscrouchandcrawl.enable_crawling.tooltip": "A mob chasing a target crawls to get through gaps 1 block high.",
+	"config.mobscrouchandcrawl.crouch_speed": "Crouching speed multiplier",
+	"config.mobscrouchandcrawl.crouch_speed.tooltip": "Movement speed while crouching, relative to walking (0.3 = 30%, same as a sneaking player).",
+	"config.mobscrouchandcrawl.crawl_speed": "Crawling speed multiplier",
+	"config.mobscrouchandcrawl.crawl_speed.tooltip": "Movement speed while crawling, relative to walking (0.3 = 30%, same as a crawling player)."
+}

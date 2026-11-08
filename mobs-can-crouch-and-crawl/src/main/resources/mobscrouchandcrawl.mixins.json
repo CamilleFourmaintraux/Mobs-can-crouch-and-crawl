@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.grotacam.mobscrouchandcrawl.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"LivingEntityMixin",
+		"MobMixin",
+		"NodeEvaluatorMixin",
+		"WalkNodeEvaluatorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

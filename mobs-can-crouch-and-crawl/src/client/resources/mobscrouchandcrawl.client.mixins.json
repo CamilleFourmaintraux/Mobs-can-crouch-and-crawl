@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.grotacam.mobscrouchandcrawl.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"AbstractZombieModelMixin",
+		"EntityRendererMixin",
+		"LivingEntityRendererMixin",
+		"ZombieVillagerModelMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
